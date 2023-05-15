@@ -9,6 +9,7 @@
     tools:context=".PuzzleActivity">
 
     <ImageView
+        android:id="@+id/grid_frame_imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:srcCompat="@drawable/puzzle_frame"
@@ -20,6 +21,7 @@
         app:layout_constraintRight_toRightOf="parent" />
 
     <ImageView
+        android:id="@+id/grid_renard_imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:srcCompat="@drawable/renard"
