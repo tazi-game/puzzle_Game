@@ -2,13 +2,10 @@ package com.example.puzzlegame
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class PuzzleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_puzzle)
     }
-
-    fun onImageCameraClicked(view: View) {}
 }
