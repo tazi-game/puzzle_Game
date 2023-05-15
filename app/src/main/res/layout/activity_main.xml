@@ -43,7 +43,7 @@
         android:layout_marginEnd="8dp"
         android:clickable="true"
         android:src="@drawable/ic_galler"
-        android:onClick="onImageCameraClicked"
+        android:onClick="onImageGalleryClicked"
         android:tint="@color/white"
         app:backgroundTint="#2A9E2F"
         android:layout_width="wrap_content"

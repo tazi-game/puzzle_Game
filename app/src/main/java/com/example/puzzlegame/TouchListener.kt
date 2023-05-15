@@ -25,7 +25,7 @@ class TouchListener (private val activity: PuzzleActivity): View.OnTouchListener
 
         val lParams = view.layoutParams as RelativeLayout.LayoutParams
 
-        when (motionEvent.action && MotionEvent.ACTION_MASK) {
+        when (motionEvent.action and MotionEvent.ACTION_MASK) {
 
             MotionEvent.ACTION_DOWN -> {
                 xDelta = x - lParams.leftMargin
